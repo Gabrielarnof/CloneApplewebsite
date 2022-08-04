@@ -67,10 +67,10 @@ nav {
 }
 
 .macbook {
-    position: relative;
-    width: 100%;
+
+    width: 100vw;
     height: 100vh;
-    background: url("..css/images/mcb13.png");
+    background: url("images/mcb13.png");
     background-size: cover;
     background-attachment: fixed;
 }
