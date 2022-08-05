@@ -53,24 +53,41 @@ nav {
 
 .unicef {
     display: -webkit-box;
+    width: 1300px;
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    font-size: 14px;
+    font-size: 12px;
     padding: 20px 0;
-    text-align: center
+    background-color: #fbfbfd;
+    height: 77px;
 }
 
-.macbook {
 
-    width: 100vw;
-    height: 100vh;
-    background: url("images/hero_macbookair__el7scava26mq_medium_2x.png");
-    background-size: cover;
+.macbook,
+h2 {
 
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+.mac1 {
+
+    width: 339px;
+    height: 43px;
 }
