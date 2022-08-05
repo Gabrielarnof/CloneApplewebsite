@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 
@@ -66,23 +66,32 @@ nav {
     height: 77px;
 }
 
-
-.macbook,
-h2 {
-
-    text-align: center;
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    -ms-flex-negative: 1;
-    flex-shrink: 1;
-    font-size: 32px;
+section h2 {
+    font-size: 40px;
     line-height: 1.125;
     font-weight: 600;
     letter-spacing: .002em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+
+.macbook {
+    background: url(images/hero_macbookair__el7scava26mq_medium_2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    padding: 0 140px 0 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100vw;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
 
 }
 
@@ -90,4 +99,12 @@ h2 {
 
     width: 339px;
     height: 43px;
+}
+
+.macicons {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: .022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
