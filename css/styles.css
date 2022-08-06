@@ -7,8 +7,10 @@
 
 
 nav {
-    height: 44px;
+    height: 35px;
     background: #000;
+    font-size: small;
+
 }
 
 .menu {
@@ -107,4 +109,23 @@ section h2 {
     font-weight: 400;
     letter-spacing: .022em;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Iphone13 {
+    background: url(images/hero_iphone13_avail__gnqqkzuai6um_medium_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    padding: 0 140px 0 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100vw;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
 }
