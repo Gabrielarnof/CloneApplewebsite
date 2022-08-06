@@ -77,7 +77,7 @@ section h2 {
 }
 
 
-.macbook {
+#macbook {
     background: url(images/hero_macbookair__el7scava26mq_medium_2x.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,7 +111,7 @@ section h2 {
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-.Iphone13 {
+#Iphone13 {
     background: url(images/hero_iphone13_avail__gnqqkzuai6um_medium_2x.jpg);
     background-repeat: no-repeat;
     background-size: 85%;
@@ -124,8 +124,32 @@ section h2 {
     align-items: start;
     width: 100vw;
     height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
     -ms-flex-negative: 1;
     flex-shrink: 1;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+
+
+.ip13,
+h1 {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding-top: var(--global-nav-collective-height);
+    height: calc(var(--content-height) + var(--global-nav-collective-height));
+    font-size: 50px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+}
+
+section h3 {
+    font-size: 30px;
+    line-height: 1.125;
+    font-weight: 500;
+    letter-spacing: .002em;
+
 }
