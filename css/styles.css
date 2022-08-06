@@ -117,19 +117,18 @@ section h2 {
     background-size: 85%;
     background-position-x: center;
     background-position-y: bottom;
-    padding: 0 140px 0 76px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: start;
     width: 100vw;
     height: 100vh;
     -ms-flex-negative: 1;
     flex-shrink: 1;
     font-size: x-large;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
+    padding-left: 1vw;
+    padding-top: 6vh;
+    margin: 1.5vh;
+    align-items: center;
+
 }
 
 
