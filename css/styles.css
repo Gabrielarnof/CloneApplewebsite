@@ -256,12 +256,12 @@ section h3 {
 
 }
 
-#Ipmac3 h3 {
+#Ipmac h3 {
     color: #030001;
     background-color: var(--background-color);
     padding-top: var(--global-nav-collective-height);
     height: calc(var(--content-height) + var(--global-nav-collective-height));
-    font-size: 5px;
+    font-size: 20px;
     line-height: 1.125;
     font-weight: 600;
     letter-spacing: .002em;
