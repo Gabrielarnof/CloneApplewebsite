@@ -152,3 +152,60 @@ section h3 {
     letter-spacing: .002em;
 
 }
+
+#superpot {
+    background: url(images/hero_bts__bcuslanw39xe_medium_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position-x: center;
+    background-position-y: bottom;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    font-size: x-large;
+    padding-left: 1vw;
+    padding-top: 6vh;
+    margin: 1.5vh;
+    align-items: center;
+
+}
+
+#superpot h1 {
+    color: #ca2166;
+    background-color: var(--background-color);
+    padding-top: var(--global-nav-collective-height);
+    height: calc(var(--content-height) + var(--global-nav-collective-height));
+    font-size: 40px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    display: inline;
+
+}
+
+#superpot h2 {
+    color: #030001;
+    background-color: var(--background-color);
+    padding-top: var(--global-nav-collective-height);
+    height: calc(var(--content-height) + var(--global-nav-collective-height));
+    font-size: 40px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    display: inline;
+
+}
+
+#superpot h3 {
+    color: #030001;
+    background-color: var(--background-color);
+    padding-top: var(--global-nav-collective-height);
+    height: calc(var(--content-height) + var(--global-nav-collective-height));
+    font-size: 20px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+}
