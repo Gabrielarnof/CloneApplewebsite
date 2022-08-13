@@ -216,12 +216,12 @@ section h3 {
     background-size: 30%;
     background-position-x: center;
     background-position-y: bottom;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
     width: 50vw;
     height: 50vh;
-    -ms-flex-negative: 1;
-    flex-shrink: 1;
+
     font-size: x-large;
     padding-left: 1vw;
     padding-top: 6vh;
@@ -265,4 +265,23 @@ section h3 {
     line-height: 1.125;
     font-weight: 600;
     letter-spacing: .002em;
+}
+
+.macpro13 {
+    background: url(images/promo_mbp13__buwssod6c8vm_medium_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-x: center;
+    background-position-y: bottom;
+    display: grid;
+
+    width: 50vw;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-size: x-large;
+    padding-left: 1vw;
+    padding-top: 6vh;
+    margin: 1.5vh;
+    align-items: center;
 }
