@@ -286,7 +286,9 @@ section h3 {
 
 footer {
     background-color: #F5F5F7;
-    padding: 0 10%;
+    padding: 0;
+    margin-top: 5cm;
+    margin-left: 2cm;
 }
 
 footer p {
@@ -333,4 +335,55 @@ footer p {
 
 .footer-list li:first-child:hover {
     text-decoration: none;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-parraf {
+    margin: .5rem 0;
+    padding: 0;
+}
+
+.footer-parraf a {
+    color: #5497DB;
+    text-decoration: none;
+}
+
+.footer-parraf a:hover,
+.country-link:hover {
+    text-decoration: underline;
+}
+
+.footer-parraf,
+.country-link {
+    margin: .5rem 0;
+}
+
+.country-link {
+    font-size: .8rem;
+    color: #949496;
+    text-decoration: none;
+}
+
+.cookies-politics ul {
+    display: flex;
+}
+
+
+.cookies-politics li {
+    margin-left: 1rem;
+    border-left: 1px solid #D2D2D7;
+    padding-left: 1rem;
+    padding-bottom: 0;
+}
+
+.cookies-politics li:first-child {
+    color: #949496;
+    font-weight: normal;
+    margin: 0;
+    padding-left: 0;
+    border-left: 0;
 }
