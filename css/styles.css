@@ -283,3 +283,54 @@ section h3 {
     align-items: center;
     height: 400px;
 }
+
+footer {
+    background-color: #F5F5F7;
+    padding: 0 10%;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 16px;
+    padding: .5rem 0;
+}
+
+.footer-list ul,
+footer p {
+    color: #949496;
+}
+
+.margin-hr {
+    margin: 1rem 0;
+}
+
+.footer-wrapper {
+    display: flex;
+}
+
+.footer-list {
+    width: 100%;
+}
+
+.footer-list ul {
+    list-style-type: none;
+    font-size: .8rem;
+    padding-bottom: 1rem;
+}
+
+.footer-list li {
+    padding-bottom: .5rem;
+}
+
+.footer-list li:first-child {
+    color: #454547;
+    font-weight: bold;
+}
+
+.footer-list li:hover {
+    text-decoration: underline;
+}
+
+.footer-list li:first-child:hover {
+    text-decoration: none;
+}
